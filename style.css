@@ -2,16 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007BFF;
-    color: white;
+
+.Box {
+    display: inline-block;
+    width: 100%;
+ 
+
+    .header{
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border: solid 5px rgb(132, 129, 140);
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .btn{
+    width: 100%;
+    padding: 20px 20px;
     border: none;
+    color: azure;
     border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #0056b3;
+    font-size: 20px;
+   }
+   .youtube {
+    background-color: #ff0000;
+    }
+    .facebook {
+        background-color: #3b5998;
+    }
+    .instagram {
+        background-color: #e4405f;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
 }
